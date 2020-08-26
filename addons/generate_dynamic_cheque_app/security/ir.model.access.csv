@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+dynamic_cheque,dynamic_cheque_user,generate_dynamic_cheque_app.model_dynamic_cheque,,1,1,1,1
