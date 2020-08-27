@@ -35,8 +35,9 @@
                             <field name="nationality" />
                             <field name="eid" />
                             <field name="maritial_status" />
-                            <field name="mobile" />
+                            <field name="mobile" placeholder="+971....." />
                             <field name="email" placeholder="example@domain.com"/>
+
                          <!--    <field name="permanant_address" />
                             <field name="present_address" /> -->
 	                      
