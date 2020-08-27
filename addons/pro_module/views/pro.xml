@@ -23,7 +23,7 @@
                     <field name="image" widget="image" class="oe_left oe_avatar" />
                     <div class="oe_title">
                     <h1>
-                    <field name="name"/>
+                    <field name="name" placeholder="Name"/>
                     </h1>
                     </div>
                         <group col="4" colspan="4">
@@ -35,6 +35,8 @@
                             <field name="nationality" />
                             <field name="eid" />
                             <field name="maritial_status" />
+                            <field name="mobile" />
+                            <field name="email" placeholder="example@domain.com"/>
                          <!--    <field name="permanant_address" />
                             <field name="present_address" /> -->
 	                      
@@ -67,7 +69,7 @@
                 </p>
             </field>
         </record>
-	<menuitem id="main_pro_menu" name="PRO Management"/>
+	<menuitem id="main_pro_menu" name="PRO Management" web_icon="pro_module,static/pro.png" />
 
         <!-- A first level in the left side menu is needed
              before using action= attribute -->

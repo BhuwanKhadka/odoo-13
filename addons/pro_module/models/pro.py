@@ -3,7 +3,9 @@ from odoo import fields, models
 class ProRegistration(models.Model):
     _name = "pro.registration"
     name = fields.Char(string="Name", required=True)
+    email = fields.Char(string="Email")
     age = fields.Integer(string="Age")
+    mobile = fields.Integer(string="Mobile")
     gender = fields.Selection([
         ('male', 'Male'),
         ('female', 'Female'),
